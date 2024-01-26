@@ -1,0 +1,1037 @@
+.mediaViewInfo {
+    --web-view-name: Home Page;
+    --web-view-id: Home_Page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Home_Page;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Home_Page {
+    position: absolute;
+    width: 1920px;
+    height: 2274px;
+    background-color: rgba(18,26,43,1);
+    overflow: hidden;
+    --web-view-name: Home Page;
+    --web-view-id: Home_Page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#Foot_Bar {
+    position: absolute;
+    width: 1920px;
+    height: 197px;
+    left: 0px;
+    top: 2077px;
+    overflow: visible;
+}
+#Rectangle_113 {
+    fill: rgba(25,34,52,1);
+}
+.Rectangle_113 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 197px;
+    left: 0px;
+    top: 0px;
+}
+#Group_7 {
+    position: absolute;
+    width: 788px;
+    height: 112px;
+    left: 566px;
+    top: 45px;
+    overflow: visible;
+}
+#ASP_Logo {
+    position: absolute;
+    width: 371px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#About_Us {
+    left: 481px;
+    top: 29px;
+    position: absolute;
+    overflow: visible;
+    width: 86px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(201,201,201,1);
+}
+#FAQ {
+    left: 481px;
+    top: 56px;
+    position: absolute;
+    overflow: visible;
+    width: 39px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(201,201,201,1);
+}
+#COMPANY {
+    left: 481px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(141,141,141,1);
+}
+#Facebook {
+    left: 696px;
+    top: 29px;
+    position: absolute;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(201,201,201,1);
+}
+#Twitter {
+    left: 696px;
+    top: 56px;
+    position: absolute;
+    overflow: visible;
+    width: 64px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(201,201,201,1);
+}
+#SOCIALS {
+    left: 696px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 60px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(141,141,141,1);
+}
+#Term_of_Service {
+    left: 481px;
+    top: 92px;
+    position: absolute;
+    overflow: visible;
+    width: 106px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(141,141,141,1);
+}
+#Privacy_Policy {
+    left: 696px;
+    top: 92px;
+    position: absolute;
+    overflow: visible;
+    width: 93px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(141,141,141,1);
+}
+#Exploring_Artwork {
+    position: absolute;
+    width: 1798px;
+    height: 1074px;
+    left: 40px;
+    top: 977px;
+    overflow: visible;
+}
+#Rectangle_52 {
+    fill: rgba(116,116,116,1);
+}
+.Rectangle_52 {
+    position: absolute;
+    overflow: visible;
+    width: 350px;
+    height: 350px;
+    left: 361.974px;
+    top: 0px;
+}
+#Image_9 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Image_10 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 362px;
+    top: 0px;
+    overflow: visible;
+}
+#Image_11 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 724px;
+    top: 0px;
+    overflow: visible;
+}
+#Image_12 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 1086px;
+    top: 0px;
+    overflow: visible;
+}
+#Image_13 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 1448px;
+    top: 0px;
+    overflow: visible;
+}
+#Image_14 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 0px;
+    top: 362px;
+    overflow: visible;
+}
+#Image_15 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 362px;
+    top: 362px;
+    overflow: visible;
+}
+#Image_16 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 724px;
+    top: 362px;
+    overflow: visible;
+}
+#Image_17 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 1086px;
+    top: 362px;
+    overflow: visible;
+}
+#Image_18 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 1448px;
+    top: 362px;
+    overflow: visible;
+}
+#Image_19 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 0px;
+    top: 724px;
+    overflow: visible;
+}
+#Image_20 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 362px;
+    top: 724px;
+    overflow: visible;
+}
+#Image_21 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 724px;
+    top: 724px;
+    overflow: visible;
+}
+#Image_22 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 1086px;
+    top: 724px;
+    overflow: visible;
+}
+#Image_23 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 1448px;
+    top: 724px;
+    overflow: visible;
+}
+#See_more {
+    left: 1726px;
+    top: 938px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    color: rgba(201,201,201,1);
+    letter-spacing: 0.7px;
+}
+#Exploring {
+    left: 40px;
+    top: 900px;
+    position: absolute;
+    overflow: visible;
+    width: 196px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    color: rgba(201,201,201,1);
+    letter-spacing: 0.6px;
+}
+#Comic_Art {
+    position: absolute;
+    width: 436.017px;
+    height: 267px;
+    left: 1399px;
+    top: 550px;
+    overflow: visible;
+}
+#Intersection_12 {
+    opacity: 0.7;
+    position: absolute;
+    width: 435px;
+    height: 267px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Comic_Art_bf {
+    left: 19px;
+    top: 180px;
+    position: absolute;
+    overflow: visible;
+    width: 145px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#Intersection_4 {
+    fill: rgba(255,0,17,1);
+}
+.Intersection_4 {
+    overflow: visible;
+    position: absolute;
+    width: 435.526px;
+    height: 20.001px;
+    left: 0.491px;
+    top: 246.999px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_42 {
+    fill: rgba(255,0,17,1);
+}
+.Rectangle_42 {
+    position: absolute;
+    overflow: visible;
+    width: 10px;
+    height: 40px;
+    left: 0px;
+    top: 181px;
+}
+#Photogrammetry {
+    position: absolute;
+    width: 436.001px;
+    height: 267px;
+    left: 946px;
+    top: 550px;
+    overflow: visible;
+}
+#Intersection_11 {
+    opacity: 0.7;
+    position: absolute;
+    width: 436.001px;
+    height: 267px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Photogrammetry_bk {
+    left: 20px;
+    top: 180px;
+    position: absolute;
+    overflow: visible;
+    width: 248px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#Intersection_3 {
+    fill: rgba(90,255,51,1);
+}
+.Intersection_3 {
+    overflow: visible;
+    position: absolute;
+    width: 435.526px;
+    height: 20.001px;
+    left: 0.054px;
+    top: 246.999px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_41 {
+    fill: rgba(90,255,51,1);
+}
+.Rectangle_41 {
+    position: absolute;
+    overflow: visible;
+    width: 10px;
+    height: 40px;
+    left: 0px;
+    top: 181px;
+}
+#User_Interface {
+    position: absolute;
+    width: 436.022px;
+    height: 267px;
+    left: 493px;
+    top: 550px;
+    overflow: visible;
+}
+#Intersection_10 {
+    opacity: 0.7;
+    position: absolute;
+    width: 436px;
+    height: 267px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#User_Interface_bp {
+    left: 21px;
+    top: 180px;
+    position: absolute;
+    overflow: visible;
+    width: 203px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#Intersection_2 {
+    fill: rgba(248,255,49,1);
+}
+.Intersection_2 {
+    overflow: visible;
+    position: absolute;
+    width: 435.411px;
+    height: 20.001px;
+    left: 0.611px;
+    top: 246.999px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_40 {
+    fill: rgba(248,255,49,1);
+}
+.Rectangle_40 {
+    position: absolute;
+    overflow: visible;
+    width: 10px;
+    height: 40px;
+    left: 1px;
+    top: 181px;
+}
+#Unreal_Engine {
+    position: absolute;
+    width: 436px;
+    height: 267px;
+    left: 40px;
+    top: 550px;
+    overflow: visible;
+}
+#Intersection_9 {
+    opacity: 0.7;
+    position: absolute;
+    width: 436px;
+    height: 267px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Unreal_Engine_bu {
+    left: 21px;
+    top: 180px;
+    position: absolute;
+    overflow: visible;
+    width: 201px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#Rectangle_27 {
+    fill: rgba(0,255,246,1);
+}
+.Rectangle_27 {
+    position: absolute;
+    overflow: visible;
+    width: 10px;
+    height: 40px;
+    left: 0px;
+    top: 181px;
+}
+#Intersection_1 {
+    fill: rgba(0,255,246,1);
+}
+.Intersection_1 {
+    overflow: visible;
+    position: absolute;
+    width: 435.526px;
+    height: 20.001px;
+    left: 0.172px;
+    top: 246.999px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#See_more_bx {
+    left: 1722px;
+    top: 511px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    color: rgba(201,201,201,1);
+    letter-spacing: 0.7px;
+}
+#Top_Genre {
+    left: 40px;
+    top: 490px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    color: rgba(201,201,201,1);
+}
+#Top_Artwork_4 {
+    position: absolute;
+    width: 436px;
+    height: 279px;
+    left: 1399px;
+    top: 173px;
+    overflow: visible;
+}
+#Intersection_8 {
+    position: absolute;
+    width: 436px;
+    height: 279px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Crystal_Ball {
+    left: 20px;
+    top: 205px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#onlybackgrounds {
+    left: 20px;
+    top: 246px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#Top_Artwork_3 {
+    position: absolute;
+    width: 436px;
+    height: 279px;
+    left: 946px;
+    top: 173px;
+    overflow: visible;
+}
+#Intersection_7 {
+    position: absolute;
+    width: 436px;
+    height: 279px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Thalasso_Phobia {
+    left: 20px;
+    top: 205px;
+    position: absolute;
+    overflow: visible;
+    width: 249px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#tom4dmaxwin {
+    left: 20px;
+    top: 246px;
+    position: absolute;
+    overflow: visible;
+    width: 150px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#Top_Artwork_2 {
+    position: absolute;
+    width: 436px;
+    height: 279px;
+    left: 493px;
+    top: 173px;
+    overflow: visible;
+}
+#Intersection_6 {
+    position: absolute;
+    width: 436px;
+    height: 279px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Seoul_Sky {
+    left: 20px;
+    top: 205px;
+    position: absolute;
+    overflow: visible;
+    width: 149px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#eyepilot12 {
+    left: 20px;
+    top: 246px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#Top_Artwork_1 {
+    position: absolute;
+    width: 436px;
+    height: 279px;
+    left: 40px;
+    top: 173px;
+    overflow: visible;
+}
+#Intersection_5 {
+    opacity: 0.7;
+    position: absolute;
+    width: 436px;
+    height: 279px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Daily_Life_of_Magician {
+    left: 20px;
+    top: 205px;
+    position: absolute;
+    overflow: visible;
+    width: 337px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#Cerulea-blue {
+    left: 20px;
+    top: 246px;
+    position: absolute;
+    overflow: visible;
+    width: 134px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+#See_more_cf {
+    left: 1723px;
+    top: 134px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    color: rgba(201,201,201,1);
+    letter-spacing: 0.7px;
+}
+#Top_Artwork {
+    left: 40px;
+    top: 113px;
+    position: absolute;
+    overflow: visible;
+    width: 247px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    color: rgba(201,201,201,1);
+}
+#Headbar {
+    position: absolute;
+    width: 1920px;
+    height: 97px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_102 {
+    fill: rgba(33,42,62,1);
+}
+.Rectangle_102 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 3px;
+    left: 0px;
+    top: 94px;
+}
+#Rectangle_101 {
+    fill: rgba(25,34,52,1);
+}
+.Rectangle_101 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+}
+#Sign_in_Button {
+    position: absolute;
+    width: 218px;
+    height: 54px;
+    left: 1620px;
+    top: 20px;
+    overflow: visible;
+}
+#Union_3 {
+    fill: rgba(161,59,214,1);
+}
+.Union_3 {
+    overflow: visible;
+    position: absolute;
+    width: 218px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Login_Page.html;
+    cursor: pointer;
+}
+#Sign_In {
+    left: 61px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 83px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
+#Union_12 {
+    fill: rgba(255,255,255,1);
+}
+.Union_12 {
+    overflow: visible;
+    position: absolute;
+    width: 18.829px;
+    height: 20.825px;
+    left: 21.617px;
+    top: 16.588px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Sign_up_Button {
+    position: absolute;
+    width: 218px;
+    height: 54px;
+    left: 1382px;
+    top: 20px;
+    overflow: visible;
+}
+#Union_2 {
+    fill: rgba(64,64,68,1);
+}
+.Union_2 {
+    overflow: visible;
+    position: absolute;
+    width: 218px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Signup.html;
+    cursor: pointer;
+}
+#Sign_up {
+    left: 56px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 90px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
+#Union_7 {
+    fill: rgba(255,255,255,1);
+}
+.Union_7 {
+    overflow: visible;
+    position: absolute;
+    width: 4px;
+    height: 19px;
+    transform: translate(-1382px, -43px) matrix(1,0,0,1,1414.0975,60.4999) rotate(30deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Search_Bar {
+    position: absolute;
+    width: 708px;
+    height: 54px;
+    left: 446px;
+    top: 20px;
+    overflow: visible;
+}
+#Union_1 {
+    fill: rgba(16,16,20,0);
+    stroke: rgba(201,201,201,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Union_1 {
+    overflow: visible;
+    position: absolute;
+    width: 708px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Search {
+    left: 66px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 89px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#Ellipse_5 {
+    fill: rgba(198,69,228,1);
+}
+.Ellipse_5 {
+    position: absolute;
+    overflow: visible;
+    width: 35px;
+    height: 35px;
+    left: 662px;
+    top: 10px;
+}
+#Union_4 {
+    fill: transparent;
+    stroke: rgba(201,201,201,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Union_4 {
+    overflow: visible;
+    position: absolute;
+    width: 23.743px;
+    height: 23.9px;
+    left: 19px;
+    top: 15.05px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Union_6 {
+    fill: rgba(255,255,255,1);
+}
+.Union_6 {
+    overflow: visible;
+    position: absolute;
+    width: 17.743px;
+    height: 10.728px;
+    left: 671px;
+    top: 22.136px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#ASP_Logo_cy {
+    position: absolute;
+    width: 179px;
+    height: 54px;
+    left: 40px;
+    top: 20px;
+    overflow: visible;
+}
